@@ -1,0 +1,454 @@
+/* HTML GENERAL */
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*-----------------------------*/
+
+/*  NAV GENERAL  */
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top,rgb(21, 34, 56), rgb(55, 18, 60));
+    display: flex;
+}
+.headerNav {
+    width: 100%;
+}
+.headerNav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.headerNav ul li a {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Poller One', cursive;
+    
+}
+.headerNav a:hover {
+    text-decoration: underline;
+}
+/*-----------------------------*/
+
+/*  BACKGROUND MAIN GENERAL  */
+
+.main {
+    background-image: linear-gradient(to bottom,rgb(21, 34, 56), rgb(55, 18, 60));
+}
+/*-----------------------------*/
+
+/*  FOOTER  GENERAL  */
+ 
+.footer { 
+    height: 10vh;
+    background-image: linear-gradient(to top,rgb(21, 34, 56), rgb(55, 18, 60));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    height: 40px;
+    align-items: center;
+}
+/*-----------------------------*/
+
+/* INDEX */
+
+
+.headerPortadaIndex {
+    background-size: cover;
+    height: 155vh;
+    background-image: url(../images/portadaindex\ .png);
+    color: white;
+    font-size: 333%;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    padding-top: 9%;
+}
+.mainSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "texto texto"
+                         "imagen1 imagen2";
+}
+.mainParrafo {
+    grid-area: texto;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5%;
+    color: white;
+}
+.parrafo  {
+    font-size: 33px;
+    text-align: center;
+}
+.mainImagen1 {
+    display: inline-block;
+    grid-area: imagen1;
+    margin: 3%;
+}
+.mainImagen1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2 {
+    grid-area: imagen2;
+    margin: 3%;
+}
+.mainImagen2 img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.video{
+    padding: 5%;
+    text-align: center;
+}
+
+/*-----------------------------*/
+
+/*  FALCON HEAVY  */
+
+.headerPortadaFalconheavy {
+    background-size: cover;
+    height: 155vh;
+    background-image: url(../images/portadafalcon.png);
+    color: white;
+    font-size: 333%;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    padding-top: 9%;
+}
+.mainSectionFalconheavy {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "texto imagen1"
+                         "texto imagen2";
+}
+.mainParrafoFalconheavy {
+    grid-area: texto;
+    width: 100%;
+    justify-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5%;
+    color: white;
+}
+.parrafoFalconheavy  {
+    font-size: 33px;
+    text-align: center;
+}
+.mainImagen1Falconheavy {
+    grid-area: imagen1;
+    margin: 3%;
+}
+.mainImagen1Falconheavy img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2Falconheavy {
+    grid-area: imagen2;
+    margin: 3%;
+}
+.mainImagen2Falconheavy img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.videoFalconheavy {
+    padding: 5%;
+    text-align: center;
+}
+/*-----------------------------*/
+
+/*  DRAGON  */
+
+.headerPortadaDragon {
+    background-size: cover;
+    height: 155vh;
+    background-image: url(../images/portadadragon.png);
+    color: white;
+    font-size: 333%;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    padding-top: 9%;
+}
+.mainSectionDragon {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "texto texto"
+                         "imagen1 imagen2";
+}
+.mainParrafoDragon {
+    grid-area: texto;
+    width: 100%;
+    justify-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3%;
+    color: white;
+}
+.parrafoDragon  {
+    font-size: 33px;
+    text-align: center;
+}
+.mainImagen1Dragon {
+    grid-area: imagen1;
+    margin: 3%;
+}
+.mainImagen1Dragon img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2Dragon {
+    grid-area: imagen2;
+    margin: 3%;
+}
+.mainImagen2Dragon img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.videoDragon {
+    padding: 5%;
+    text-align: center;
+}
+/*-----------------------------*/
+
+/* STARSHIP  */
+
+.headerPortadaStarship {
+    background-size: cover;
+    height: 155vh;
+    background-image: url(../images/portadastarship.png);
+    color: white;
+    font-size: 333%;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    padding-top: 9%;
+}
+.mainSectionStarship {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "imagen1 texto"
+                         "imagen2 texto";
+}
+.mainParrafoStarship {
+    grid-area: texto;
+    width: 100%;
+    justify-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5%;
+    color: white;
+}
+.parrafoStarship {
+    font-size: 33px;
+    text-align: center;
+}
+.mainImagen1Starship {
+    grid-area: imagen1;
+    margin: 3%;
+}
+.mainImagen1Starship img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2Starship {
+    grid-area: imagen2;
+    margin: 3%;
+}
+.mainImagen2Starship img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.videoStarship {
+    padding: 5%;
+    text-align: center;
+}
+/*-----------------------------*/
+
+/* CONTACTO */
+
+.headerPortadaContacto {
+    background-size: cover;
+    height: 155vh;
+    background-image: url(../images/portadacontacto.png);
+    color:black;
+    font-size: 333%;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+
+.mainParrafoContacto {
+    grid-area: texto;
+    width: 100%;
+    justify-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5%;
+    color: white;
+}
+.parrafoContacto {
+    font-size: 33px;
+    text-align: center;
+}
+.videoContacto {
+    padding: 5%;
+    text-align: center;
+}
+.formulario {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+
+/*-----------------------------*/
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 768px) {
+
+/* GENERAL */
+
+.headerNav ul {
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+/* INICIO */
+
+.headerPortadaIndex {
+    height: 50vh;
+    font-size: 111%;
+ 
+}
+.mainSection {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "texto"
+                         "texto"
+                         "imagen1"
+                         "imagen2";
+}
+.parrafo  {
+    font-size: 18px;
+}
+.video iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* FALCON HEAVY */
+
+.headerPortadaFalconheavy {
+    height: 50vh;
+    font-size: 111%; 
+}
+.mainSectionFalconheavy {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "texto"
+                         "texto" 
+                         "imagen1"
+                         "imagen2";
+}
+.parrafoFalconheavy  {
+    font-size: 18px;
+}
+.videoFalconheavy iframe {
+    max-width: 100%;
+    width: 100%;
+}
+/* DRAGON */
+
+.headerPortadaDragon {
+    height: 50vh;
+    font-size: 111%;
+}
+.mainSectionDragon {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "texto" 
+                         "texto"
+                         "imagen1"
+                         "imagen2";
+}
+.parrafoDragon  {
+    font-size: 18px;
+}
+.videoDragon iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* STARSHIP */
+
+.headerPortadaStarship {
+    height: 50vh;
+    font-size: 111%;
+}
+.mainSectionStarship {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "texto"
+                         "texto"
+                         "imagen1"
+                         "imagen2";
+}
+.parrafoStarship {
+    font-size: 18px;
+}
+.videoStarship iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* CONTACTO */
+.headerPortadaContacto {
+    background-size: cover;
+    height: 50vh;
+    font-size: 111%;
+}
+.parrafoContacto {
+    font-size: 18px;
+}
+.videoContacto iframe {
+    max-width: 100%;
+    width: 100%;
+}
+.formulario {
+    margin-left: 20%;
+}
+}
