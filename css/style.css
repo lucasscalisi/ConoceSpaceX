@@ -1,467 +1,257 @@
 /* HTML GENERAL */
 html, body {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
+  max-width: 100% !important;
+  overflow-x: hidden !important; }
 
 * {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box; }
 
 /*  NAV GENERAL  */
-
 .headerNav {
-    width: 100%;
-}
+  width: 100%; }
 
 .headerNav ul li a {
-    font-family: 'Teko', sans-serif;
-    font-size: 150%;
-}
+  font-family: 'Teko', sans-serif;
+  font-size: 150%; }
 
 .headerNav a:hover {
-    text-decoration: underline;
-}
+  text-decoration: underline; }
 
 /*  BACKGROUND MAIN GENERAL  */
-
 .main {
-    background-image: linear-gradient(to top,rgb(255, 255, 255), rgb(0, 0, 0));
-}
+  background-image: linear-gradient(to top, white, black); }
 
 /*  FOOTER  GENERAL  */
- 
-.footer { 
-    height: 10vh;
-    background-image: linear-gradient(to bottom,rgb(255, 255, 255), rgb(0, 0, 0));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer img{
-    height: 40px;
-    align-items: center;
-}
+.footer {
+  height: 10vh;
+  background-image: linear-gradient(to bottom, white, black);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer img {
+  height: 40px;
+  align-items: center; }
 
 /*-----------------------------*/
-
 /* INDEX */
+.headerPortadaIndex, .headerPortadaFalconheavy, .headerPortadaDragon, .headerPortadaStarship, .headerPortadaContacto {
+  background-size: cover;
+  height: 90vh;
+  background-image: url(../images/portadaindex.jpg);
+  color: white;
+  font-size: 333%;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  padding-top: 9%; }
 
-.headerPortadaIndex {
-    background-size: cover;
-    height: 90vh;
-    background-image: url(../images/portadaindex.jpg);
-    color: white;
-    font-size: 333%;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    padding-top: 9%;
-}
-.mainSection {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
-    grid-template-areas: "texto texto"
-                         "imagen1 imagen2";
-}
-.mainParrafo {
-    grid-area: texto;
-    width: 100%;
-    height: 100%;
-    justify-self: center;
-    font-family: 'Monda', sans-serif;
-    padding: 5%;
-    color: white;
-}
-.parrafo  {
-    font-size: 22px;
-    text-align: center;
-}
-.mainImagen1 {
-    display: inline-block;
-    grid-area: imagen1;
-    margin: 3%;
-}
-.mainImagen1 img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.mainImagen2 {
-    grid-area: imagen2;
-    margin: 3%;
-}
-.mainImagen2 img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.video{
-    padding: 5%;
-    text-align: center;
+.mainSection, .mainSectionDragon {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  grid-template-areas: "texto texto" "imagen1 imagen2"; }
 
-}
+.mainParrafo, .mainParrafoFalconheavy, .mainParrafoDragon, .mainParrafoStarship, .mainParrafoContacto {
+  grid-area: texto;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  font-family: 'Monda', sans-serif;
+  padding: 5%;
+  color: white; }
+
+.parrafo, .parrafoFalconheavy, .parrafoDragon, .parrafoStarship, .parrafoContacto {
+  font-size: 22px;
+  text-align: center; }
+
+.mainImagen1, .mainImagen1Falconheavy, .mainImagen1Dragon, .mainImagen1Starship {
+  display: inline-block;
+  grid-area: imagen1;
+  margin: 3%; }
+
+.mainImagen1 img, .mainImagen1Falconheavy img, .mainImagen1Dragon img, .mainImagen1Starship img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
+
+.mainImagen2, .mainImagen2Falconheavy, .mainImagen2Dragon, .mainImagen2Starship {
+  grid-area: imagen2;
+  margin: 3%; }
+
+.mainImagen2 img, .mainImagen2Falconheavy img, .mainImagen2Dragon img, .mainImagen2Starship img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
+
+.video, .videoFalconheavy, .videoDragon, .videoStarship, .videoContacto {
+  padding: 5%;
+  text-align: center; }
+
 .carousel {
-
-    width: 90%;
-    padding: 2%;
-    margin-left: 5%;
-}
+  width: 90%;
+  padding: 2%;
+  margin-left: 5%; }
 
 /*  FALCON HEAVY  */
-
 .headerPortadaFalconheavy {
-    background-size: cover;
-    height: 90vh;
-    background-image: url(../images/portadafalcon.jpg);
-    color: white;
-    font-size: 333%;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    padding-top: 9%;
-}
+  background-image: url(../images/portadafalcon.jpg); }
+
 .mainSectionFalconheavy {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
-    grid-template-areas: "texto imagen1"
-                         "texto imagen2";
-}
-.mainParrafoFalconheavy {
-    grid-area: texto;
-    width: 100%;
-    justify-self: center;
-    font-family: 'Monda', sans-serif;
-    padding: 5%;
-    color: white;
-}
-.parrafoFalconheavy  {
-    font-size: 33px;
-    text-align: center;
-}
-.mainImagen1Falconheavy {
-    grid-area: imagen1;
-    margin: 3%;
-}
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  grid-template-areas: "texto imagen1" "texto imagen2"; }
+
+.parrafoFalconheavy {
+  padding-top: 30%; }
+
 .mainImagen1Falconheavy img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.mainImagen2Falconheavy {
-    grid-area: imagen2;
-    margin: 3%;
-}
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
+
 .mainImagen2Falconheavy img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.videoFalconheavy {
-    padding: 5%;
-    text-align: center;
-}
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
 
 /*  DRAGON  */
-
 .headerPortadaDragon {
-    background-size: cover;
-    height: 90vh;
-    background-image: url(../images/portadadragon.jpg);
-    color: white;
-    font-size: 333%;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    padding-top: 9%;
-}
-.mainSectionDragon {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
-    grid-template-areas: "texto texto"
-                         "imagen1 imagen2";
-}
-.mainParrafoDragon {
-    grid-area: texto;
-    width: 100%;
-    justify-self: center;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 3%;
-    color: white;
-}
-.parrafoDragon  {
-    font-size: 22px;
-    text-align: center;
-}
-.mainImagen1Dragon {
-    grid-area: imagen1;
-    margin: 3%;
-}
+  background-image: url(../images/portadadragon.jpg); }
+
 .mainImagen1Dragon img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.mainImagen2Dragon {
-    grid-area: imagen2;
-    margin: 3%;
-}
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
+
 .mainImagen2Dragon img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.videoDragon {
-    padding: 5%;
-    text-align: center;
-}
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
 
 /* STARSHIP  */
-
 .headerPortadaStarship {
-    background-size: cover;
-    height: 90vh;
-    background-image: url(../images/portadastarship.jpg);
-    color: white;
-    font-size: 333%;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    padding-top: 9%;
-}
+  background-image: url(../images/portadastarship.jpg); }
+
 .mainSectionStarship {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
-    grid-template-areas: "imagen1 texto"
-                         "imagen2 texto";
-}
-.mainParrafoStarship {
-    grid-area: texto;
-    width: 100%;
-    justify-self: center;
-    font-family: 'Monda', sans-serif;
-    padding: 5%;
-    color: white;
-}
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  grid-template-areas: "imagen1 texto" "imagen2 texto"; }
+
 .parrafoStarship {
-    font-size: 33px;
-    text-align: center;
-}
-.mainImagen1Starship {
-    grid-area: imagen1;
-    margin: 3%;
-}
+  padding-top: 30%; }
+
 .mainImagen1Starship img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.mainImagen2Starship {
-    grid-area: imagen2;
-    margin: 3%;
-}
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
+
 .mainImagen2Starship img {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-}
-.videoStarship {
-    padding: 5%;
-    text-align: center;
-}
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%; }
 
 /* CONTACTO */
-
 .headerPortadaContacto {
-    background-size: cover;
-    height: 90vh;
-    background-image: url(../images/portadacontacto.jpg);
-    color:black;
-    font-size: 333%;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    padding-top: 9%;
-}
+  background-image: url(../images/portadacontacto.jpg);
+  color: black; }
 
-.mainParrafoContacto {
-    grid-area: texto;
-    width: 100%;
-    justify-self: center;
-    font-family: 'Monda', sans-serif;
-    padding: 5%;
-    color: white;
-}
-.parrafoContacto {
-    font-size: 22px;
-    text-align: center;
-}
-.videoContacto {
-    padding: 5%;
-    text-align: center;
-}
 .formulario {
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 5%;
-    color: white;
-}
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+  color: white; }
 
 /*-----------------------------*/
-
 /* MEDIA QUERIES */
-
 @media only screen and (max-width: 768px) {
-
-/* GENERAL */
-
-.headerNav ul {
+  /* GENERAL */
+  .headerNav ul {
     align-items: center;
     flex-direction: column;
-    height: auto;
-}
-
-/* INICIO */
-
-.headerPortadaIndex {
+    height: auto; }
+  /* INICIO */
+  .headerPortadaIndex, .headerPortadaFalconheavy, .headerPortadaDragon, .headerPortadaStarship, .headerPortadaContacto {
     height: 50vh;
-    font-size: 111%;
- 
-}
-
-.mainSection {
+    font-size: 111%; }
+  .mainSection, .mainSectionDragon {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "texto"
-                         "texto"
-                         "imagen1"
-                         "imagen2";
-}
-
-.parrafo  {
-    font-size: 18px;
-}
-
-.video iframe {
+    grid-template-areas: "texto" "texto" "imagen1" "imagen2"; }
+  .parrafo, .parrafoFalconheavy, .parrafoDragon, .parrafoStarship, .parrafoContacto {
+    font-size: 18px; }
+  .video iframe, .videoFalconheavy iframe, .videoDragon iframe, .videoStarship iframe, .videoContacto iframe {
     max-width: 100%;
-    width: 100%;
-}
-
-.carousel {
+    width: 100%; }
+  .carousel {
     width: 100%;
     padding: 2%;
-    margin-left: 0%;
-}
-
-/* FALCON HEAVY */
-
-.headerPortadaFalconheavy {
+    margin-left: 0%; }
+  /* FALCON HEAVY */
+  .headerPortadaFalconheavy {
     height: 50vh;
-    font-size: 111%; 
-}
-
-.mainSectionFalconheavy {
+    font-size: 111%; }
+  .mainSectionFalconheavy {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "texto"
-                         "texto" 
-                         "imagen1"
-                         "imagen2";
-}
-
-.parrafoFalconheavy  {
-    font-size: 18px;
-}
-
-.videoFalconheavy iframe {
+    grid-template-areas: "texto" "texto"  "imagen1" "imagen2"; }
+  .parrafoFalconheavy {
+    font-size: 18px; }
+  .videoFalconheavy iframe {
     max-width: 100%;
-    width: 100%;
-}
-
-/* DRAGON */
-
-.headerPortadaDragon {
+    width: 100%; }
+  /* DRAGON */
+  .headerPortadaDragon {
     height: 50vh;
-    font-size: 111%;
-}
-
-.mainSectionDragon {
+    font-size: 111%; }
+  .mainSectionDragon {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "texto" 
-                         "texto"
-                         "imagen1"
-                         "imagen2";
-}
-
-.parrafoDragon  {
-    font-size: 18px;
-}
-
-.videoDragon iframe {
+    grid-template-areas: "texto"  "texto" "imagen1" "imagen2"; }
+  .parrafoDragon {
+    font-size: 18px; }
+  .videoDragon iframe {
     max-width: 100%;
-    width: 100%;
-}
-
-/* STARSHIP */
-
-.headerPortadaStarship {
+    width: 100%; }
+  /* STARSHIP */
+  .headerPortadaStarship {
     height: 50vh;
-    font-size: 111%;
-}
-
-.mainSectionStarship {
+    font-size: 111%; }
+  .mainSectionStarship {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "texto"
-                         "texto"
-                         "imagen1"
-                         "imagen2";
-}
-
-.parrafoStarship {
-    font-size: 18px;
-}
-
-.videoStarship iframe {
+    grid-template-areas: "texto" "texto" "imagen1" "imagen2"; }
+  .parrafoStarship {
+    font-size: 18px; }
+  .videoStarship iframe {
     max-width: 100%;
-    width: 100%;
-}
-
-/* CONTACTO */
-
-.headerPortadaContacto {
+    width: 100%; }
+  /* CONTACTO */
+  .headerPortadaContacto {
     background-size: cover;
     height: 50vh;
-    font-size: 111%;
-}
-
-.parrafoContacto {
-    font-size: 18px;
-}
-
-.videoContacto iframe {
+    font-size: 111%; }
+  .parrafoContacto {
+    font-size: 18px; }
+  .videoContacto iframe {
     max-width: 100%;
-    width: 100%;
-}
-
-.formulario {
+    width: 100%; }
+  .formulario {
     width: 90%;
-    margin: 5%;
-}
-
-}
+    margin: 5%; } }

@@ -1,0 +1,390 @@
+/* HTML GENERAL */
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*  NAV GENERAL  */
+
+.headerNav {
+    width: 100%;
+}
+.headerNav ul li a {
+    font-family: 'Teko', sans-serif;
+    font-size: 150%;
+}
+.headerNav a:hover {
+    text-decoration: underline;
+}
+/*  BACKGROUND MAIN GENERAL  */
+
+.main {
+    background-image: linear-gradient(to top,rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+/*  FOOTER  GENERAL  */
+ 
+.footer { 
+    height: 10vh;
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255), rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    height: 40px;
+    align-items: center;
+}
+
+/*-----------------------------*/
+
+/* INDEX */
+
+.headerPortadaIndex {
+    background-size: cover;
+    height: 90vh;
+    background-image: url(../images/portadaindex.jpg);
+    color: white;
+    font-size: 333%;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    padding-top: 9%;
+}
+.mainSection {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "texto texto"
+                         "imagen1 imagen2";
+}
+.mainParrafo {
+    grid-area: texto;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    font-family: 'Monda', sans-serif;
+    padding: 5%;
+    color: white;
+}
+.parrafo  {
+    font-size: 22px;
+    text-align: center;
+}
+.mainImagen1 {
+    display: inline-block;
+    grid-area: imagen1;
+    margin: 3%;
+}
+.mainImagen1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2 {
+    grid-area: imagen2;
+    margin: 3%;
+}
+.mainImagen2 img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.video{
+    padding: 5%;
+    text-align: center;
+
+}
+.carousel {
+    width: 90%;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+/*  FALCON HEAVY  */
+
+.headerPortadaFalconheavy {
+    @extend .headerPortadaIndex;
+    background-image: url(../images/portadafalcon.jpg);
+   
+}
+.mainSectionFalconheavy {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "texto imagen1"
+                         "texto imagen2";
+}
+.mainParrafoFalconheavy {
+    @extend .mainParrafo;
+}
+.parrafoFalconheavy  {
+    @extend .parrafo;
+    padding-top: 30%
+}
+.mainImagen1Falconheavy {
+    @extend .mainImagen1;
+}
+.mainImagen1Falconheavy img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2Falconheavy {
+    @extend .mainImagen2;
+}
+.mainImagen2Falconheavy img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.videoFalconheavy {
+    @extend .video;
+}
+
+/*  DRAGON  */
+
+.headerPortadaDragon {
+    @extend .headerPortadaIndex;
+    background-image: url(../images/portadadragon.jpg);
+}
+
+.mainSectionDragon {
+    @extend .mainSection;
+}
+.mainParrafoDragon {
+    @extend .mainParrafo;
+}
+.parrafoDragon  {
+    @extend .parrafo;
+}
+.mainImagen1Dragon {
+    @extend .mainImagen1;
+}
+.mainImagen1Dragon img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2Dragon {
+    @extend .mainImagen2;
+}
+.mainImagen2Dragon img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.videoDragon {
+    @extend .video;
+}
+
+/* STARSHIP  */
+
+.headerPortadaStarship {
+    @extend .headerPortadaIndex;
+    background-image: url(../images/portadastarship.jpg);
+}
+.mainSectionStarship {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "imagen1 texto"
+                         "imagen2 texto";
+}
+.mainParrafoStarship {
+    @extend .mainParrafo;
+}
+.parrafoStarship {
+   @extend .parrafo;
+   padding-top: 30%;
+}
+.mainImagen1Starship {
+    @extend .mainImagen1;
+}
+.mainImagen1Starship img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.mainImagen2Starship {
+    @extend .mainImagen2;
+}
+.mainImagen2Starship img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.videoStarship {
+    @extend .video;
+}
+
+/* CONTACTO */
+
+.headerPortadaContacto {
+    @extend .headerPortadaIndex;
+    background-image: url(../images/portadacontacto.jpg);
+    color:black;    
+}
+
+.mainParrafoContacto {
+    @extend .mainParrafo;
+}
+.parrafoContacto {
+    @extend .parrafo;
+}
+.videoContacto {
+    @extend .video;
+}
+.formulario {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    color: white;
+}
+
+/*-----------------------------*/
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+
+/* GENERAL */
+
+.headerNav ul {
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+/* INICIO */
+
+.headerPortadaIndex {
+    height: 50vh;
+    font-size: 111%;
+ 
+}
+.mainSection {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "texto"
+                         "texto"
+                         "imagen1"
+                         "imagen2";
+}
+.parrafo  {
+    font-size: 18px;
+}
+.video iframe {
+    max-width: 100%;
+    width: 100%;
+}
+.carousel {
+    width: 100%;
+    padding: 2%;
+    margin-left: 0%;
+}
+
+/* FALCON HEAVY */
+
+.headerPortadaFalconheavy {
+    height: 50vh;
+    font-size: 111%; 
+}
+.mainSectionFalconheavy {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "texto"
+                         "texto" 
+                         "imagen1"
+                         "imagen2";
+}
+.parrafoFalconheavy  {
+    font-size: 18px;
+}
+.videoFalconheavy iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* DRAGON */
+
+.headerPortadaDragon {
+    height: 50vh;
+    font-size: 111%;
+}
+.mainSectionDragon {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "texto" 
+                         "texto"
+                         "imagen1"
+                         "imagen2";
+}
+.parrafoDragon  {
+    font-size: 18px;
+}
+.videoDragon iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* STARSHIP */
+
+.headerPortadaStarship {
+    height: 50vh;
+    font-size: 111%;
+}
+.mainSectionStarship {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "texto"
+                         "texto"
+                         "imagen1"
+                         "imagen2";
+}
+.parrafoStarship {
+    font-size: 18px;
+}
+.videoStarship iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* CONTACTO */
+
+.headerPortadaContacto {
+    background-size: cover;
+    height: 50vh;
+    font-size: 111%;
+}
+.parrafoContacto {
+    font-size: 18px;
+}
+.videoContacto iframe {
+    max-width: 100%;
+    width: 100%;
+}
+.formulario {
+    width: 90%;
+    margin: 5%;
+}
+
+}
