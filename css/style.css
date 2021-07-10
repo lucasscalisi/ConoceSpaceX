@@ -3,6 +3,7 @@ html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +11,6 @@ html, body {
     text-decoration: none;
     box-sizing: border-box;
 }
-/*-----------------------------*/
 
 /*  NAV GENERAL  */
 
@@ -19,26 +19,25 @@ html, body {
 }
 
 .headerNav ul li a {
-    font-family: 'Poller One', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 150%;
 }
 
 .headerNav a:hover {
     text-decoration: underline;
 }
-/*-----------------------------*/
 
 /*  BACKGROUND MAIN GENERAL  */
 
 .main {
-    background-image: linear-gradient(to bottom,rgb(21, 34, 56), rgb(55, 18, 60));
+    background-image: linear-gradient(to top,rgb(255, 255, 255), rgb(0, 0, 0));
 }
-/*-----------------------------*/
 
 /*  FOOTER  GENERAL  */
  
 .footer { 
     height: 10vh;
-    background-image: linear-gradient(to top,rgb(21, 34, 56), rgb(55, 18, 60));
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255), rgb(0, 0, 0));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,18 +46,18 @@ html, body {
     height: 40px;
     align-items: center;
 }
+
 /*-----------------------------*/
 
 /* INDEX */
 
-
 .headerPortadaIndex {
     background-size: cover;
-    height: 155vh;
-    background-image: url(../images/portadaindex\ .png);
+    height: 90vh;
+    background-image: url(../images/portadaindex.jpg);
     color: white;
     font-size: 333%;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Teko', sans-serif;
     text-align: center;
     padding-top: 9%;
 }
@@ -74,12 +73,12 @@ html, body {
     width: 100%;
     height: 100%;
     justify-self: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Monda', sans-serif;
     padding: 5%;
     color: white;
 }
 .parrafo  {
-    font-size: 33px;
+    font-size: 22px;
     text-align: center;
 }
 .mainImagen1 {
@@ -109,22 +108,20 @@ html, body {
 }
 .carousel {
 
-    width: 80%;
+    width: 90%;
     padding: 2%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
-
-/*-----------------------------*/
 
 /*  FALCON HEAVY  */
 
 .headerPortadaFalconheavy {
     background-size: cover;
-    height: 155vh;
-    background-image: url(../images/portadafalcon.png);
+    height: 90vh;
+    background-image: url(../images/portadafalcon.jpg);
     color: white;
     font-size: 333%;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Teko', sans-serif;
     text-align: center;
     padding-top: 9%;
 }
@@ -139,7 +136,7 @@ html, body {
     grid-area: texto;
     width: 100%;
     justify-self: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Monda', sans-serif;
     padding: 5%;
     color: white;
 }
@@ -171,17 +168,16 @@ html, body {
     padding: 5%;
     text-align: center;
 }
-/*-----------------------------*/
 
 /*  DRAGON  */
 
 .headerPortadaDragon {
     background-size: cover;
-    height: 155vh;
-    background-image: url(../images/portadadragon.png);
+    height: 90vh;
+    background-image: url(../images/portadadragon.jpg);
     color: white;
     font-size: 333%;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Teko', sans-serif;
     text-align: center;
     padding-top: 9%;
 }
@@ -201,7 +197,7 @@ html, body {
     color: white;
 }
 .parrafoDragon  {
-    font-size: 33px;
+    font-size: 22px;
     text-align: center;
 }
 .mainImagen1Dragon {
@@ -228,17 +224,16 @@ html, body {
     padding: 5%;
     text-align: center;
 }
-/*-----------------------------*/
 
 /* STARSHIP  */
 
 .headerPortadaStarship {
     background-size: cover;
-    height: 155vh;
-    background-image: url(../images/portadastarship.png);
+    height: 90vh;
+    background-image: url(../images/portadastarship.jpg);
     color: white;
     font-size: 333%;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Teko', sans-serif;
     text-align: center;
     padding-top: 9%;
 }
@@ -253,7 +248,7 @@ html, body {
     grid-area: texto;
     width: 100%;
     justify-self: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Monda', sans-serif;
     padding: 5%;
     color: white;
 }
@@ -285,30 +280,30 @@ html, body {
     padding: 5%;
     text-align: center;
 }
-/*-----------------------------*/
 
 /* CONTACTO */
 
 .headerPortadaContacto {
     background-size: cover;
-    height: 155vh;
-    background-image: url(../images/portadacontacto.png);
+    height: 90vh;
+    background-image: url(../images/portadacontacto.jpg);
     color:black;
     font-size: 333%;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Teko', sans-serif;
     text-align: center;
+    padding-top: 9%;
 }
 
 .mainParrafoContacto {
     grid-area: texto;
     width: 100%;
     justify-self: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Monda', sans-serif;
     padding: 5%;
     color: white;
 }
 .parrafoContacto {
-    font-size: 33px;
+    font-size: 22px;
     text-align: center;
 }
 .videoContacto {
@@ -322,11 +317,9 @@ html, body {
     color: white;
 }
 
-
 /*-----------------------------*/
 
 /* MEDIA QUERIES */
-
 
 @media only screen and (max-width: 768px) {
 
@@ -345,6 +338,7 @@ html, body {
     font-size: 111%;
  
 }
+
 .mainSection {
     display: grid;
     grid-template-columns: 100%;
@@ -354,12 +348,20 @@ html, body {
                          "imagen1"
                          "imagen2";
 }
+
 .parrafo  {
     font-size: 18px;
 }
+
 .video iframe {
     max-width: 100%;
     width: 100%;
+}
+
+.carousel {
+    width: 100%;
+    padding: 2%;
+    margin-left: 0%;
 }
 
 /* FALCON HEAVY */
@@ -368,6 +370,7 @@ html, body {
     height: 50vh;
     font-size: 111%; 
 }
+
 .mainSectionFalconheavy {
     display: grid;
     grid-template-columns: 100%;
@@ -377,19 +380,23 @@ html, body {
                          "imagen1"
                          "imagen2";
 }
+
 .parrafoFalconheavy  {
     font-size: 18px;
 }
+
 .videoFalconheavy iframe {
     max-width: 100%;
     width: 100%;
 }
+
 /* DRAGON */
 
 .headerPortadaDragon {
     height: 50vh;
     font-size: 111%;
 }
+
 .mainSectionDragon {
     display: grid;
     grid-template-columns: 100%;
@@ -399,9 +406,11 @@ html, body {
                          "imagen1"
                          "imagen2";
 }
+
 .parrafoDragon  {
     font-size: 18px;
 }
+
 .videoDragon iframe {
     max-width: 100%;
     width: 100%;
@@ -413,6 +422,7 @@ html, body {
     height: 50vh;
     font-size: 111%;
 }
+
 .mainSectionStarship {
     display: grid;
     grid-template-columns: 100%;
@@ -422,28 +432,36 @@ html, body {
                          "imagen1"
                          "imagen2";
 }
+
 .parrafoStarship {
     font-size: 18px;
 }
+
 .videoStarship iframe {
     max-width: 100%;
     width: 100%;
 }
 
 /* CONTACTO */
+
 .headerPortadaContacto {
     background-size: cover;
     height: 50vh;
     font-size: 111%;
 }
+
 .parrafoContacto {
     font-size: 18px;
 }
+
 .videoContacto iframe {
     max-width: 100%;
     width: 100%;
 }
+
 .formulario {
-    margin-left: 20%;
+    width: 90%;
+    margin: 5%;
 }
+
 }
