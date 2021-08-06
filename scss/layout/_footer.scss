@@ -1,0 +1,19 @@
+/*  FOOTER  GENERAL  */
+ 
+.footer { 
+    height: 15vh;
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255), rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    transition: all 3s;
+}
+.footer img{
+    height: 40px;
+    align-items: center;
+}
+.footer img:hover {
+    transform: scale(2,2); 
+}
+

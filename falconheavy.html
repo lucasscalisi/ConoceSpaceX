@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,11 +29,13 @@
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="headerPortadaFalconheavy">
-            <h1 class="animate__animated animate__fadeInDown">FALCON HEAVY</h1>
         </div>
         <div class="header">
             <nav class="headerNav">
@@ -64,7 +67,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="contacto.html">CONTACTO</a>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
@@ -80,20 +82,33 @@
             <section>
                 <article>
                     <div class="mainSectionFalconheavy">
+                        <div class="title" data-aos="fade-up">
+                            <h1>FALCON HEAVY</h1>
+                        </div>
                         <div class="mainParrafoFalconheavy">
                             <p class="parrafoFalconheavy"> Falcon Heavy es el cohete operativo más poderoso del mundo.
-                                Es un vehículo de lanzamiento espacial super pesado y reutilizable. Cuenta con la
-                                capacidad de poner en órbita casi 64 toneladas métricas (141.000 libras). Está compuesto
-                                por tres núcleos de nueve motores Falcon 9 cuyos 27 motores Merlin juntos generan más de
-                                5 millones de libras de empuje en el despegue, lo que equivale aproximadamente a
-                                dieciocho aviones 747.
+                                Es un vehículo de lanzamiento espacial super pesado y reutilizable. El cohete, 70 metros
+                                de alto, cuenta con la capacidad de poner en órbita casi 64 toneladas métricas el
+                                equivalente a poner en el espacio cinco autobuses de dos pisos. Está compuesto por tres
+                                núcleos de nueve motores Falcon 9 cuyos 27 motores Merlin juntos generan más de 5
+                                millones de libras de empuje en el despegue, lo que equivale aproximadamente a dieciocho
+                                aviones 747.
+                                SpaceX realizó el lanzamiento inaugural de Falcon Heavy el 6 de febrero de 2018. El
+                                cohete llevaba un Tesla Roadster perteneciente al fundador de SpaceX, Elon Musk , con un
+                                muñeco llamado "Starman" en el asiento del conductor, como carga útil ficticia. El
+                                segundo lanzamiento del Falcon Heavy ocurrió el 11 de abril de 2019 y los tres cohetes
+                                impulsores regresaron con éxito a la Tierra. El tercer lanzamiento de Falcon Heavy se
+                                produjo con éxito el 25 de junio de 2019. Desde entonces, Falcon Heavy ha sido
+                                certificado para el programa National Security Space Launch (NSSL).
+
                             </p>
                         </div>
                         <div class="mainImagen1Falconheavy">
-                            <img src="images/falconheavy1.jpg" alt="Aterrizaje de Falcon 9">
+                            <div data-aos="flip-left"><img src="images/falconheavy1.jpg" alt="Aterrizaje de Falcon 9">
+                            </div>
                         </div>
                         <div class="mainImagen2Falconheavy">
-                            <img src="images/falconheavy2.jpg" alt="Falcon Heavy">
+                            <div data-aos="flip-right"><img src="images/falconheavy2.jpg" alt="Falcon Heavy"></div>
                         </div>
                     </div>
                 </article>
@@ -113,14 +128,22 @@
             <div class="redes">
                 <a href="https://www.instagram.com/spacex/?hl=es-la" target="_blank"><img src="images/instagram.png"
                         alt="Logo instagram"></a>
-                <a href="https://twitter.com/SpaceX" target="_blank"> <img src="images/twitter.png" alt="Logo twitter"></a>
+                <a href="https://twitter.com/SpaceX" target="_blank"> <img src="images/twitter.png"
+                        alt="Logo twitter"></a>
                 <a href="https://www.youtube.com/user/spacexchannel" target="_blank"><img src="images/youtube.png"
                         alt="Logo youtube"> </a>
             </div>
         </div>
     </footer>
+    <!--BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
